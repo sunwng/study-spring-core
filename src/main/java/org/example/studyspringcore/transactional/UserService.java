@@ -1,4 +1,4 @@
-package org.example.studyspringcore;
+package org.example.studyspringcore.transactional;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -9,12 +9,12 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserService {
     private final UserRepository userRepository;
 
-    /*
+    /**
     * @Topic How does Spring catch the @Transactional annotation?
     * @See org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut.TransactionAttributeSourceClassFilter.matches
     * */
 
-    /*
+    /**
     * @Topic How @Transactional annotation works?
     * @See org.springframework.transaction.interceptor.TransactionInterceptor.intercept
     * */

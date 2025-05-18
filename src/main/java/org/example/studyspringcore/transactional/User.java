@@ -1,4 +1,4 @@
-package org.example.studyspringcore;
+package org.example.studyspringcore.transactional;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

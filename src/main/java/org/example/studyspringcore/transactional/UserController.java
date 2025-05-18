@@ -1,4 +1,4 @@
-package org.example.studyspringcore;
+package org.example.studyspringcore.transactional;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
